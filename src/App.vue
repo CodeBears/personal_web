@@ -8,12 +8,16 @@
 </template>
 
 <style lang="sass">
+body
+  height: 100%
+  background-color: black
+  color: #20C20E
+
 #app
-  font-family: Avenir, Helvetica, Arial, sans-serif
+  font-family: monospace, Avenir, Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center
-  color: #2c3e50
 #nav
   padding: 30px
 
@@ -22,8 +26,30 @@
   color: #2c3e50
 
 #nav a.router-link-exact-active
-  color: #42b983
+  color: #20C20E
 
 h2
   color: rgb(145, 45, 45)
+
+.typerText
+  font-size: 2em
+  text-align: left
+  color: #20C20E
+  text-transform: uppercase
+
+#typer
+  border-right: .05em solid
+  animation: caret 1s steps(1) infinite
+  color: #20C20E
+
+#helloWorld
+  position: relative
+  left: 100px
+
+#typerBlock
+  margin: 0 10%
+
+@keyframes caret
+  50%
+    border-color: transparent
 </style>
