@@ -2,8 +2,13 @@
     <div class="Home">
     <div id='typerBlock'>
       <p class="typerText" id="myName"></p>
-      <p class="typerText" id="helloWorld"></p>
-      <p>oh yeah</p>
+
+          <p class="typerText" id="helloWorld"></p>
+          <p class="smallTyperText" id="info1">Experience: 1 year</p>
+          <p class="smallTyperText" id="info2">Jobtitle: Backend Software Engineer</p>
+          <p class="smallTyperText" id="info3">Skills: Python</p>
+          <p class="smallTyperText" id="info3">Email: qszwax0935@gmail.com</p>
+
     </div>
 
   </div>
@@ -23,7 +28,7 @@ export default {
       document.getElementById('helloWorld').innerHTML = `${helloWorld.substring(0, i + 1)}<span id="typer" aria-hidden="true"></span>`;
       setTimeout(() => {
         typeHello(i + 1);
-      }, 200);
+      }, 100);
     }
     function typeName(i) {
       if (i === myName.length) {
@@ -35,7 +40,7 @@ export default {
 
       setTimeout(() => {
         typeName(i + 1);
-      }, 200);
+      }, 100);
     }
     typeName(0);
   },
