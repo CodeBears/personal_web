@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+
+  personal_web:
+    container_name: personal_web
+    image: node:14.10.0-alpine3.10
+    volumes:
+      - .:/src
+    ports:
+      - 5000:8080
+    command: yarn --cwd ./src serve
