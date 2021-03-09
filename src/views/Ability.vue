@@ -7,8 +7,9 @@
       </div>
       <div class="skillContent">
         <ul>
-          <li>Python(flask)</li>
-          <li>Javascript(node.js)</li>
+          <li>Python(Flask)</li>
+          <li>Javascript(Node.js)</li>
+          <li>Typescript(Angular)</li>
         </ul>
       </div>
     </div>

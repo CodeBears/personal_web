@@ -2,11 +2,10 @@
     <div class="commonContainer">
     <div id='typerBlock'>
       <p class="typerText" id="myName"></p>
-
           <p class="typerText" id="helloWorld"></p>
           <p class="smallTyperText" id="info1">Experience: 1 year</p>
           <p class="smallTyperText" id="info2">Job Title: Backend Software Engineer</p>
-          <p class="smallTyperText" id="info3">Skills: Python</p>
+          <p class="smallTyperText" id="info3">Skill: Python(Flask)</p>
           <p class="smallTyperText" id="info3">Email: qszwax0935@gmail.com</p>
 
     </div>
