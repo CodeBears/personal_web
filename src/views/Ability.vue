@@ -9,7 +9,7 @@
         <ul>
           <li>Python(Flask)</li>
           <li>Javascript(Node.js)</li>
-          <li>Typescript(Angular)</li>
+          <li>Vue</li>
         </ul>
       </div>
     </div>
@@ -43,6 +43,7 @@
         <ul>
           <li>Websocket</li>
           <li>MQTT</li>
+          <li>RabbitMQ</li>
           <li>RestfulAPI</li>
         </ul>
       </div>

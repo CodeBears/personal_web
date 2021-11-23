@@ -7,9 +7,7 @@
           <p class="smallTyperText" id="info2">Job Title: Backend Software Engineer</p>
           <p class="smallTyperText" id="info3">Skill: Python(Flask)</p>
           <p class="smallTyperText" id="info3">Email: qszwax0935@gmail.com</p>
-
     </div>
-
   </div>
 </template>
 

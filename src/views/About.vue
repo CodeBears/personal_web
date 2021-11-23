@@ -3,8 +3,9 @@
     <div class="about">
       <h3>Backend Software Engineer in Golden Crown Technology Inc.(10/2020 - present)</h3>
       <ul>
-        <li>Develope and maintenance the foreign exchange trading websites</li>
+        <li>Develop and maintenance the foreign exchange trading website</li>
         <li>Web RESTful API</li>
+        <li>Web scraping</li>
         <li>Mysql</li>
         <li>Docker</li>
         <li>Testing</li>
